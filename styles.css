@@ -101,28 +101,56 @@ a{
     height: 490px;
     width: 1180px;
     float: left;
-    margin-top: 29px;
+    margin-top: 100px;
     margin-left: 38px;
     text-align: center;
+}
+#conteudo img{
+  height: 500px;
+  width:1080px ;
+  -webkit-transition: -webkit-transform .5s ease;
+  transition: transform .5s ease;
+  border-radius: 05px;
+  flex: 2;
+}
+#conteudo img:hover{
+  -webkit-transform: scale(1);
+  transform: scale(1.09);
+  filter: blur(0px);
 }
 #lado{
     box-shadow: yellow;
     height: 490px;
     width: 265px;
     float: left;
-    background-color: brown;
-    margin-top: 29px;
+    background-color: rgb(0, 0, 0);
+    margin-top: 100px;
     margin-left: 15px;
     margin-block-end: 5px;
     box-shadow: 1px;
 }
-
-#rodapé{
-    height: 100px;
-    background-color: crimson;
-    clear: both;
-    width: 95%;
-    margin:0 auto;
-    text-align: center;
+#lado img{
+  height:490px ;
+  width:265px ;
+}
+#egito{
+  position: absolute;
+  top: 1180%;
+  color:#dddddd;
+  left: 8%;
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 22px;
+  text-transform: uppercase;
+}
+#destaque{
+  position: absolute;
+  top: 120%;
+  margin-left: 2%;
+}
+#destaque h2{
+  font-size: 26px;
+  font-family:"Poppins";
+  font-weight: 500;
 
 }
