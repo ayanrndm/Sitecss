@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    background-color: #dddddd;
+}
+
+ h1{
+    font-size: 28px;
+}
+#cabeça{
+    height: 100px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #000000;
+    color: #dddddd;
+}
+#cabeça h1{
+    padding-top: 40px;
+    margin-left: 44%;
+}
+#menu{
+    position: absolute;
+    height: 50px;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    margin: 0 auto;
+}
+#menu li{
+    position: relative;
+    padding-top: 5px;
+    display: inline-flex;
+    font-family: "M PLUS 2", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #dddddd;
+    padding-inline-start:40px;
+    left: 38%;
+}
+.Sesi{
+    position: absolute;
+    display: none;
+    width: 100px;
+    height: 80px;
+}
+
+ul {
+    display: inline;
+    margin: 0;
+    padding: 0;
+  }
+.lista1 {
+    position: absolute;
+    display: inline-flex;
+    text-decoration: none;
+  }
+a{
+    font-family: "M PLUS 2";
+    text-decoration: none;
+    color: #dddddd;
+}
+  
+  .lista1:hover .lista2 {
+    display: inline-block;
+    list-style: none;
+    margin-left: -150px;
+  }
+  
+  .lista2 {
+    position: absolute;
+    height: 500px;
+    width: 200px;
+    display: none;
+    list-style: none;
+    margin-left: -200px;
+  }
+  
+  .lista-link {
+    position: absolute;
+    background-size: 100%;
+    display: inline-flex;
+    top: 10%;
+    width: 150px;
+    height: 150px;
+    list-style: none;
+  }
+  
+  .link {
+    display:inline-flex;
+    width: 250px;
+    height: 100%;
+  }
+  
+#conteudo{
+    background-color: #dddddd;
+    height: 490px;
+    width: 1180px;
+    float: left;
+    margin-top: 29px;
+    margin-left: 38px;
+    text-align: center;
+}
+#lado{
+    box-shadow: yellow;
+    height: 490px;
+    width: 265px;
+    float: left;
+    background-color: brown;
+    margin-top: 29px;
+    margin-left: 15px;
+    margin-block-end: 5px;
+    box-shadow: 1px;
+}
+
+#rodapé{
+    height: 100px;
+    background-color: crimson;
+    clear: both;
+    width: 95%;
+    margin:0 auto;
+    text-align: center;
+
+}
